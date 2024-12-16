@@ -1,0 +1,78 @@
+.add-auther-img {
+    border: 1px dashed #534b4d6b;
+    padding: 26px 2px;
+    border-radius: 12px;
+    /* margin-top: 1rem; */
+    font-size: 12px;
+    text-align: center;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.recepi-step-number-add {
+    border: 1px dashed #534b4d6b;
+    padding: 26px 2px;
+    border-radius: 12px;
+    /* margin-top: 1rem; */
+    font-size: 12px;
+    text-align: center;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 138px;
+}
+.recepie-timing-label span.input-group-text {
+    padding: 0;
+}
+button.btn.btn-primary:hover {
+    color: #fff;
+}
+
+.vide-add.add-recipe-vido {
+    padding: 9px 5px 0px 20px !important;
+}
+.add-notes {
+    border: 1px dashed #534b4d6b;
+    padding: 26px 2px;
+    border-radius: 12px;
+    margin-top: 1rem;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 138px;
+}
+
+.recepie-timing-label .form-select {
+    /* background-image: url(../Images/Combo-Box-Button.png); */
+    background-image: url("../../assets/Images/Combo-Box-Button.png");
+    background-size: 27px 27px;
+    padding: 4px 6px;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #E01010 !important;
+    --bs-btn-border-color: #E01010 !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #E01010;
+    --bs-btn-hover-border-color: #E01010;
+    --bs-btn-focus-shadow-rgb: 117, 153, 255;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #E01010;
+    --bs-btn-active-border-color: #E01010;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #E01010;
+    --bs-btn-disabled-border-color: #5D87FF
+    
+    
+}

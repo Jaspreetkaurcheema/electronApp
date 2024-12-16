@@ -1,0 +1,335 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* 
+body {
+    background-image: url("../Assets/Images/banner-bg.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+} */
+
+.app-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px !important;
+}
+
+.favorites-app {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-left: 40px !important;
+
+}
+
+.home {
+    width: 587px;
+}
+
+/* .bottom-app {
+    width: 560px !important;
+    height: 75px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #F6F6F65C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    position: fixed;
+    bottom: 20px;
+    left: 51%;
+    transform: translateX(-50%);
+} */
+
+/* 
+.searching input {
+    width: 50%
+} */
+
+.search-icon {
+    position: relative;
+    left: 14px;
+    z-index: 2;
+}
+
+/* input[type="text"] {
+    padding-left: 40px;
+    background-color: #E0E0E0;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0.5px #0000000D;
+  
+    opacity: 75%;
+    height: 29px;
+    box-shadow: 0px 0.5px 2.5px 0px #0000004D;
+    padding-bottom: 4px;
+}
+
+
+.searching {
+    position: fixed;
+    top: 100px;
+    left: 43%;
+} */
+
+
+
+
+i.fa-solid.fa-magnifying-glass {
+    color: grey;
+    z-index: 8;
+
+}
+
+.search-bar {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.app-icon img {
+    max-width: 85%;
+}
+
+.favorites-app img {
+    max-width: 85%;
+}
+
+.dropup .dropdown-toggle::after {
+    display: none !important;
+}
+
+ul.dropdown-menu.show {
+    text-align: center;
+    border: 0;
+}
+
+.content {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    color: #FEFEFE;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+a.dropdown-item:hover {
+    background-color: transparent;
+}
+
+button.btn.dropdown-toggle {
+    color: white;
+    border: 0;
+}
+
+.dropdown-img {
+    background-color: #F6F6F65C;
+    border-radius: 10px;
+    display: none;
+    border: white;
+}
+
+@media (max-width: 561px) {
+    .dropdown-img {
+        display: block;
+        height: 49px;
+    }
+
+    .three-dot i {
+        margin-top: 8px;
+    }
+
+    .dropdown-img {
+        margin-left: -48px;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .app-pic6 img {
+        display: none;
+    }
+}
+    @media (max-width: 420px) {
+        .app-pic5 img {
+            display: none;
+        }
+
+        .dropdown-img {
+            margin-left: -119px;
+        }
+
+    }
+
+    @media (max-width: 390px) {
+        .res-app4 img {
+            display: none;
+        }
+
+        .dropdown-img {
+            margin-left: -119px;
+        }
+
+        .dropdown-img {
+            margin-left: -272px;
+        }
+
+    }
+
+    @media (max-width: 350px) {
+
+        /* .res-app3 img{
+display: none;
+} */
+        .dropdown-img {
+            margin-left: -120px;
+        }
+
+    }
+
+
+    button.btn.dropdown-toggle.no-outline {
+        /* display: none; */
+    }
+
+    /* responsive */
+    @media (max-width: 1199.98px) {
+        /* .searching {
+            left: 39%;
+        }
+    }
+
+    @media (max-width: 991.98px) {
+        .searching {
+            left: 38%;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        .searching {
+            left: 35% !important;
+        }
+
+    }
+
+    @media (max-width: 575.98px) {
+        .searching {
+            left: 30% !important;
+        }
+
+    }
+
+    @media (max-width: 561px) {
+        .searching {
+            left: 30%;
+        } */
+
+        /* .bottom-app {
+            left: 50%;
+            width: 545px !important;
+            justify-content: space-between;
+
+        } */
+
+        /* .app-pic5 img {
+        display: none;
+    }
+
+    .app-pic6 img {
+        display: none;
+    } */
+
+        .app-pic7 img {
+            display: none;
+        }
+
+        .app-pic8 img {
+            display: none;
+        }
+
+
+        button.btn.dropdown-toggle.no-outline {
+            display: block;
+        }
+    }
+
+    .three-dot i {
+        font-size: 26px;
+        color: white;
+    }
+
+    /* 
+button.btn.btn-secondary.dropdown-toggle {
+display: none;
+} */
+    @media (max-width:320px) {
+        .app-icon img {
+            width: 85%;
+        }
+
+        .favorites-app img {
+            width: 85%;
+        }
+
+        .app-icon {
+            padding-left: 5px !important;
+        }
+
+        .favorites-app {
+            padding-left: 5px !important;
+
+        }
+
+        .content {
+            padding-top: 0;
+            padding-right: 0;
+        }
+
+        /* .searching {
+            left: 9% ;
+        } */
+
+
+    }
+    
+    @media (max-width:400px) {
+        /* .searching {
+            left: 23% !important;
+        } */
+    }
+
+
+    .drop-down img {
+        display: none;
+    }
+
+    @media (max-width:482px) {
+        /* .searching {
+            left: 23%;
+        } */
+    }
+
+    button.btn.dropdown-toggle {
+        color: white;
+    }
+
+    ul.dropdown-menu.show {
+        background-color: transparent;
+    }
+
+    /* Remove outline and box-shadow for the button */
+    .no-outline {
+        outline: none;
+    }
+
+    /* Ensure focus does not show outline */
+    .no-outline:focus {
+        outline: none !important;
+        box-shadow: none;
+    }
